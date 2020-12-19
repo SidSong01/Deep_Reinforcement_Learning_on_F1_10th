@@ -1,4 +1,8 @@
+[//]: # (Image References)
 
+[image1]: ./demo/demo.gif
+
+[image2]: ./demo/avoiding.gif
 
 # Deep Reinforcement LEarning for Autonomous Driving
 
@@ -14,6 +18,9 @@ Anshuman Sharma (anshums@g.clemson.edu)
 Prateek Sharma (prateek@g.clemson.edu)
 
 ## DEMO
+
+![alt text][image1]
+![alt text][image2]
 
 ---
 
