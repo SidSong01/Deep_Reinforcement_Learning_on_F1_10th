@@ -95,30 +95,20 @@ Changes in *rl_car_driver.py*: For training uncomment lines 283 and 284. For eva
 
 `Action Space: 5 actions:
 	{Straight, lightly left, lightly right}
-
-NN: 
 	3 convolutional layers + 1 flatten + 2 dense
 	Output q-table for 5 actions`
  
  `Action Space: 5 actions:
 	{Straight, lightly left, lightly right}
-
-
-NN: 
 	3 convolutional layers 
 	+ 0.5 dropout(between 2nd and 3rd)
 	+ 1 flatten + 2 dense
-
 	Output q-table for 5 actions
 `
 
 `Action Space: 5 actions:
-	{Straight, lightly left, lightly right}
-
-
-NN: 
+	{Straight, lightly left, lightly right} 
 	1 convolutional layers + 1 flatten + 2 dense
-
 	Output q-table for 5 actions
 `
 
