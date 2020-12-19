@@ -2,15 +2,20 @@
 
 # Deep Reinforcement LEarning for Autonomous Driving
 
+
 ## Scaled Autonomous Vehicles Fall 2020 - Team A
 
-Team Members:
+### Team Members:
 
 Lingyi Song (lingyis@g.clemson.edu)
 
 Anshuman Sharma (anshums@g.clemson.edu)
 
 Prateek Sharma (prateek@g.clemson.edu)
+
+## DEMO
+
+---
 
 The repository contains three sub-repositories:
 1. f1tenth-RL: It contains code to execute the code with 15 actions.
