@@ -19,7 +19,10 @@ Prateek Sharma (prateek@g.clemson.edu)
 
 ## DEMO
 
+* Running in Berlin map
 ![alt text][image1]
+
+* Obstacle avoiding
 ![alt text][image2]
 
 ---
