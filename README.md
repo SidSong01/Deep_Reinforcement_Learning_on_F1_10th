@@ -5,8 +5,11 @@
 ## Scaled Autonomous Vehicles Fall 2020 - Team A
 
 Team Members:
+
 Lingyi Song (lingyis@g.clemson.edu)
+
 Anshuman Sharma (anshums@g.clemson.edu)
+
 Prateek Sharma (prateek@g.clemson.edu)
 
 The repository contains three sub-repositories:
