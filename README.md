@@ -4,6 +4,8 @@
 
 [image2]: ./demo/avoiding.gif
 
+[image3]: ./demo/nn.png
+
 # Deep Reinforcement LEarning for Autonomous Driving
 
 
@@ -44,6 +46,7 @@ Each sub repository has following files:
 
 The code was modified from https://github.com/MichaelBosello/f1tenth-RL.
 
+This project can be immigrated to real F1-tenth vehicles. Tutorial for the hardwares can be found in [here](https://f1tenth.org/).
 
 **
 
@@ -82,3 +85,42 @@ You can use the --model argument to load a trained model, e.g.:
 `python3 rl_car_driver.py --model=./run-real-car/models --simulator`
 
 Changes in *rl_car_driver.py*: For training uncomment lines 283 and 284. For evaluation keep lines 283 and 284 commented.
+
+## NN architectures
+
+* Original 
+![alt text][image3]
+
+#### Changes
+
+`Action Space: 5 actions:
+	{Straight, lightly left, lightly right}
+
+NN: 
+	3 convolutional layers + 1 flatten + 2 dense
+	Output q-table for 5 actions`
+ 
+ `Action Space: 5 actions:
+	{Straight, lightly left, lightly right}
+
+
+NN: 
+	3 convolutional layers 
+	+ 0.5 dropout(between 2nd and 3rd)
+	+ 1 flatten + 2 dense
+
+	Output q-table for 5 actions
+`
+
+`Action Space: 5 actions:
+	{Straight, lightly left, lightly right}
+
+
+NN: 
+	1 convolutional layers + 1 flatten + 2 dense
+
+	Output q-table for 5 actions
+`
+
+In the file `dqn_optional.py`, modify the code from line 64 and replace it with the original as `dqn.py` in the /f1tenth-RL/f1tenth-rl/folder.
+
