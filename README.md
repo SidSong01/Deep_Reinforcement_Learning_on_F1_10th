@@ -46,7 +46,7 @@ Each sub repository has following files:
 
 The code was modified from https://github.com/MichaelBosello/f1tenth-RL.
 
-This project can be immigrated to real F1-tenth vehicles. Tutorial for the hardwares can be found in [here](https://f1tenth.org/).
+## This project can be immigrated to real F1-tenth vehicles. Tutorial for the hardwares can be found in [here](https://f1tenth.org/).
 
 **
 
